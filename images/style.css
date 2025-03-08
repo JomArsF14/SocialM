@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation Styles */
+.top-nav {
+    background-color: #000080;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-icons img, 
+.nav-settings img {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
+.nav-icons img:hover, 
+.nav-settings img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.nav-logo span {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Container and Sidebar Styles */
+.container {
+    display: flex;
+    flex-grow: 1;
+}
+
+.left-sidebar {
+    width: 33.33%;
+    background-color: #ddd;
+    padding: 20px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Boxes Styles */
+.profile-card-box, 
+.interests-box, 
+.links-box, 
+.upcoming-events-box, 
+.friend-request-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.interests-box, 
+.upcoming-events-box, 
+.friend-request-box {
+    text-align: center; 
+}
+
+.profile-card,
+.interests,
+.upcoming-events,
+.friend-request {
+    margin-bottom: 0;
+}
+
+/* Profile Card Styles */
+.profile-card-box {
+    text-align: center;
+}
+
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Links Styles */
+.links a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Upcoming Events Styles */
+.event-image img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Friend Request Styles */
+.friend-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.main-content {
+    /* ... previous styles ... */
+  }
+  
+  .top-section {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+  }
+  
+  .post-box {
+    /* ... previous styles ... */
+    width: 50%; 
+  }
+  
+  .myday-section {
+    width: 45%; 
+    overflow-x: auto; 
+  }
+  
+  .myday-container {
+    display: flex; 
+    gap: 10px; 
+  }
+  
+  .myday-item {
+    width: 80px; 
+    height: 100px; 
+    border-radius: 10px; 
+    overflow: hidden; 
+  }
+  
+  .myday-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Post Section Styles */
+.post-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.post-input {
+    background-color: #eee;
+    height: 100px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.post-button {
+    background-color: #e0d8ff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.post-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.post-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 50%; /* Changed to 50% */
+    box-sizing: border-box;
+}
+
+.post {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .post-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  .time {
+    font-size: 0.8em;
+    color: #888;
+  }
+  
+  .post-content {
+    margin-bottom: 10px;
+  }
+  
+  .location {
+    font-size: 0.9em;
+    color: #555;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .post-actions {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  /* ... previous styles ... */
+
+.post-images {
+    display: flex;
+    gap: 10px; /* Adjust spacing between images */
+    margin-bottom: 10px;
+  }
+  
+  .post-images img {
+    width: 100px; /* Adjust image size as needed */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .like-btn,
+  .comment-btn {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .like-btn:hover,
+  .comment-btn:hover {
+    background-color: #e0e0e0;
+  }
