@@ -482,7 +482,7 @@ main .container .right{
 }
 
 .right .messages .message .profile-photo .active{
-    width: 0.7rem;
+    width: 0.8rem;
     height: 0.8rem;
     border-radius: 50%;
     border: 3px solid var(--color-white);
