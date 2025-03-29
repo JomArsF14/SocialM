@@ -10,8 +10,8 @@ const messageSearch = document.querySelector('#messages-search');
 const notificationCount = messagesNotification.querySelector('.notification-count');
 
 //THEME
-const theme = document.querySelector('#theme');
-const themeModal = document.querySelector('.customize-theme')
+const theme = document.querySelectorAll('#theme');
+const themeModal = document.querySelectorAll('.customize-theme')
 
 // remove active class from all menu items
 const changeActiveItem = () => {
@@ -78,17 +78,17 @@ if (messagesNotification && notificationCount) {
             }
         }, 2000);
     });
-}
+};
 
   // THEME/DISPLAY CUSTOMIZATION
 
 // opens modal
-const openThemeModal = () => {
+const openthemeModal = () => {
     themeModal.style.display = 'grid';
 };
 
 // closes modal
-const closeThemeModal = (e) => {
+const closethemeModal = (e) => {
     if (e.target.classList.contains('customize-theme')) {
         themeModal.style.display = 'none';
     }

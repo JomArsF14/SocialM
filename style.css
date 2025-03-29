@@ -296,7 +296,7 @@ main .container .left .profile{
 }
 
 .middle .stories .story:nth-child(1){
-    background: url("./images/s3.JPG")
+    background: url("./images/s1.JPG")
     no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(2){
@@ -304,15 +304,15 @@ main .container .left .profile{
     no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(3){
-    background: url("./images/s3.JPG")
+    background: url("./images/s2.JPG")
     no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(4){
-    background: url("./images/s3.JPG")
+    background: url("./images/s4.JPG")
     no-repeat center center/cover;
 }
 .middle .stories .story:nth-child(5){
-    background: url("./images/s3.JPG")
+    background: url("./images/sh.png")
     no-repeat center center/cover;
 }
 
